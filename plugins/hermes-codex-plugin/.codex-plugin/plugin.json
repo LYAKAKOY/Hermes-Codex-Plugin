@@ -1,0 +1,38 @@
+{
+  "name": "hermes-codex-plugin",
+  "version": "0.10.1",
+  "description": "Local-first memory, recall, and skill evolution for Codex agents.",
+  "author": {
+    "name": "Hermes Codex Plugin contributors"
+  },
+  "homepage": "https://github.com/lyakakoy/hermes-codex-plugin",
+  "repository": "https://github.com/lyakakoy/hermes-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "memory",
+    "skills",
+    "sqlite",
+    "fts5"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Hermes Codex Plugin",
+    "shortDescription": "Local-first memory for Codex",
+    "longDescription": "Capture Codex sessions locally, recall relevant context with SQLite full-text search, search across previous chats, and draft reusable skills from repeated rules without embeddings.",
+    "developerName": "Hermes Codex Plugin contributors",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Search my Codex memory for this project",
+      "Remember this workflow rule",
+      "Draft a skill from repeated rules"
+    ],
+    "brandColor": "#10A37F",
+    "screenshots": []
+  }
+}

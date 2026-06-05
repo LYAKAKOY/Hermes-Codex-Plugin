@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hermes Codex Plugin"
+  short_description: "Search local memory and draft skills"
+  default_prompt: "Search my local Codex memory for this task."

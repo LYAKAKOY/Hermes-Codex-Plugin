@@ -1,0 +1,20 @@
+{
+  "name": "hermes-codex-plugin",
+  "interface": {
+    "displayName": "Hermes Codex Plugin"
+  },
+  "plugins": [
+    {
+      "name": "hermes-codex-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hermes-codex-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

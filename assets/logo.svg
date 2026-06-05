@@ -1,0 +1,65 @@
+<svg width="1000" height="180" viewBox="0 0 1000 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hermes Codex Plugin logo</title>
+  <desc id="desc">A retro block wordmark for Hermes Codex Plugin.</desc>
+  <defs>
+    <linearGradient id="gold" x1="30" y1="22" x2="970" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFE34D"/>
+      <stop offset="0.48" stop-color="#FFD21A"/>
+      <stop offset="1" stop-color="#FFC400"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="24" y1="92" x2="984" y2="154" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C96B21"/>
+      <stop offset="0.52" stop-color="#D9872C"/>
+      <stop offset="1" stop-color="#A65318"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="25" y1="28" x2="965" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#2A1708"/>
+    </linearGradient>
+    <clipPath id="lowerHalf">
+      <rect x="0" y="92" width="1000" height="88"/>
+    </clipPath>
+    <filter id="softGlow" x="-30" y="-30" width="1060" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#FACC15" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="180" fill="#121212"/>
+  <path d="M17 24H983" stroke="#1F2937" stroke-width="2"/>
+  <path d="M17 154H983" stroke="#1F2937" stroke-width="2"/>
+
+  <g opacity="0.34" stroke="#2DD4BF" stroke-width="2" stroke-linecap="square">
+    <path d="M38 36H96V18"/>
+    <path d="M146 152H202V168"/>
+    <path d="M810 18V38H874"/>
+    <path d="M914 160V140H966"/>
+    <path d="M31 118H78"/>
+    <path d="M920 70H972"/>
+  </g>
+
+  <g font-family="Impact, Haettenschweiler, Arial Black, ui-sans-serif, system-ui, sans-serif" font-size="108" font-weight="900" letter-spacing="0" text-anchor="middle" stroke-linejoin="miter" filter="url(#softGlow)">
+    <text x="502" y="124" textLength="910" lengthAdjust="spacingAndGlyphs" fill="none" stroke="#0A0A0A" stroke-width="22">HERMES-CODEX</text>
+    <text x="508" y="132" textLength="910" lengthAdjust="spacingAndGlyphs" fill="none" stroke="#6B3513" stroke-width="18">HERMES-CODEX</text>
+    <text x="504" y="128" textLength="910" lengthAdjust="spacingAndGlyphs" fill="none" stroke="#1A1A1A" stroke-width="12">HERMES-CODEX</text>
+    <text x="500" y="119" textLength="910" lengthAdjust="spacingAndGlyphs" fill="url(#gold)" stroke="url(#edge)" stroke-width="5" paint-order="stroke fill">HERMES-CODEX</text>
+    <text x="500" y="119" textLength="910" lengthAdjust="spacingAndGlyphs" fill="url(#amber)" stroke="#4B220B" stroke-width="3" clip-path="url(#lowerHalf)" paint-order="stroke fill">HERMES-CODEX</text>
+  </g>
+
+  <g opacity="0.74" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M80 54H124V40H160" stroke="#FFF176" stroke-width="3"/>
+    <path d="M188 137H232V151H276" stroke="#D97706" stroke-width="3"/>
+    <path d="M698 45H744V31H790" stroke="#FFF176" stroke-width="3"/>
+    <path d="M742 142H782V158H834" stroke="#D97706" stroke-width="3"/>
+    <path d="M429 50H470" stroke="#FFF176" stroke-width="3"/>
+    <path d="M528 144H574" stroke="#D97706" stroke-width="3"/>
+  </g>
+
+  <g opacity="0.28" stroke="#000000" stroke-width="2" stroke-linecap="square">
+    <path d="M61 42V140"/>
+    <path d="M143 38V148"/>
+    <path d="M302 34V146"/>
+    <path d="M651 36V146"/>
+    <path d="M887 36V148"/>
+    <path d="M951 42V140"/>
+  </g>
+</svg>

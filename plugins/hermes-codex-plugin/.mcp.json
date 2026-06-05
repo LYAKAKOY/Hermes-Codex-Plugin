@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "hermes-codex-plugin": {
+      "command": "python3",
+      "args": [
+        "scripts/mcp_server.py"
+      ],
+      "cwd": ".",
+      "startup_timeout_sec": 10,
+      "tool_timeout_sec": 60,
+      "default_tools_approval_mode": "prompt",
+      "tools": {
+        "hermes_codex_search": {
+          "approval_mode": "approve"
+        },
+        "hermes_codex_search_chats": {
+          "approval_mode": "approve"
+        },
+        "hermes_codex_stats": {
+          "approval_mode": "approve"
+        },
+        "hermes_codex_propose_skill": {
+          "approval_mode": "approve"
+        },
+        "hermes_codex_remember": {
+          "approval_mode": "prompt"
+        },
+        "hermes_codex_forget": {
+          "approval_mode": "prompt"
+        },
+        "hermes_codex_write_skill": {
+          "approval_mode": "prompt"
+        }
+      }
+    }
+  }
+}
