@@ -1,6 +1,9 @@
 ---
 name: hermes-codex-plugin
 description: Use when a task may depend on prior user preferences, project conventions, architectural rules, workflow decisions, previous Codex work, full-text memory search, durable rule saving, or skill drafting/updating through Hermes Codex Plugin, especially to reduce Codex token spend by recalling minimal relevant context.
+version: 1.0.0
+license: MIT
+metadata.hermes.tags: []
 ---
 
 # Hermes Codex Plugin
